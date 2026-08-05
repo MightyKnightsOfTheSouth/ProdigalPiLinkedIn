@@ -33,6 +33,19 @@ header p {
   margin-top: 10px;
 }
 
+/* Header hyperlink */
+.header-link {
+  color: #c4c4c4;      /* Same color as the other header text */
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+.header-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
 .team {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
